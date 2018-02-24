@@ -1,0 +1,6 @@
+enzyme react-test-renderer enzyme-adapter-react-16 jest babel-jest babel-preset-env babel-preset-react enzyme-to-json
+
+import { configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+
+configure({ adapter: new Adapter() });
